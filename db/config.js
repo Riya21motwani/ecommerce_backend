@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Connecting to MongoDB database
-mongoose.connect("mongodb+srv://abc12345:KF258yPDHV6K2nAV@ecommercebackend.mnykz.mongodb.net//e-commerce", {
+mongoose.connect("mongodb+srv://abc12345:KF258yPDHV6K2nAV@ecommercebackend.mnykz.mongodb.net/e-commerce", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
